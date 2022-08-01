@@ -92,7 +92,9 @@ header .wrap nav .gnb {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0.8rem 1.5rem;
   font-size: 0.875px;
+  cursor: pointer;
 }
 .pop-menu .close-menu .material-icons {
   font-size: 0.875rem;
@@ -101,6 +103,10 @@ header .wrap nav .gnb {
 .pop-menu ul {
   width: 100%;
   padding: 2rem 1.25rem;
+}
+.pop-menu ul li {
+  line-height: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 #visual {
