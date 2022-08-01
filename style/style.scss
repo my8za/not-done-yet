@@ -75,12 +75,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 0.8rem 1.5rem;
     font-size: 0.875px;
+    cursor: pointer;
     .material-icons {font-size: 0.875rem; font-weight: 900;}
   }
   ul {
     width: 100%;
-    padding:2rem 1.25rem;
+    padding: 2rem 1.25rem;
+    li {
+      line-height: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,.8);
+    }
   }
 
   color: var(--white);
