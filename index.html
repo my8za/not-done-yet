@@ -52,7 +52,7 @@
   <!-- VISUAL -->
   <section id="visual">
     <div class="video">
-      <video src="https://isorepublic.com/wp-content/uploads/2018/08/iso-republic-free-video-busy-city-intersection.mp4" autoplay loop></video>
+      <video src="https://isorepublic.com/wp-content/uploads/2018/06/isorepublic-free-video-man-playing-basketball.mp4" autoplay loop></video>
     </div>
     <div class="wrap">
       <div class="mask">
@@ -94,6 +94,18 @@
       </ul>
     </div>
   </footer>
-  
+  <script>
+    const openMenu = document.querySelector('.btn-menu')
+    const closeMenu = document.querySelector('.close-menu')
+    const popMenu = document.querySelector('.pop-menu')
+
+    openMenu.addEventListener('click', () => {
+      popMenu.style.display = 'block'
+    })
+
+    closeMenu.addEventListener('click', () => {
+      popMenu.style.display = 'none'
+    })
+  </script>
 </body>
 </html>
